@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint:fix": "eslint --fix --ext js,jsx,ts,tsx ./src",
-    "start": "react-scripts start",
+    "start": "DISABLE_ESLINT_PLUGIN=true react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "lint": "npx eslint --ext js,jsx,ts,tsx ./src"
