@@ -1,0 +1,215 @@
+@import 'assets/scss';
+.container-input {
+    width: 15vw;
+    border: 1px solid $color-solid-border;
+    border-radius: 0.313em;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-color: $color-solid-border;
+    padding: 1% 2%;
+}
+
+.view-top {
+    display: flex;
+    flex-grow: initial;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.view-top-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.txt-management {
+    font-size: $text-big;
+    font-weight: 600;
+    line-height: $line-height-big;
+    font-family: $font-bold;
+    color: $color-black;
+}
+
+.txt-address {
+    font-size: $text-small;
+    line-height: $line-height-small;
+    font-family: $font-medium;
+    color: $color-black;
+}
+
+.btn-news-user {
+    display: flex;
+    flex-direction: row;
+    margin-right: 1em;
+    padding: 0.5em 0.875em;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.313em;
+    p {
+        color: $color-white;
+        font-size: $text-normal;
+        line-height: $line-height-normal;
+        font-family: $font-medium;
+        padding-right: 0.313em;
+        margin-bottom: 0em;
+    }
+}
+
+.label-btn {
+    font-size: $text-normal;
+    line-height: $line-height-normal;
+    font-family: $font-medium;
+}
+
+.color-label-green {
+    color: $color-white
+}
+
+.right-icon {
+    width: 1.250em;
+    height: 1.250em;
+}
+
+.color-label-red {
+    color: $color-red
+}
+
+.btn-news-user-green {
+    background-color: $color-green;
+}
+
+.btn-news-user-red {
+    background-color: $color-red-r1;
+}
+
+.view-body {
+    padding: 0.625em 0em;
+    display: flex;
+    flex-direction: row;
+}
+
+.view-body-left {
+    height: 80vh;
+    min-width: 15vw;
+    background-color: $color-white;
+    border-radius: 0.313em;
+    box-shadow: 0.313em 0.313em 0.313em 0.313em $color-t-gray;
+    .view-tabs {
+        display: flex;
+        justify-content: start;
+        width: 100%;
+        .button-tabs {
+            background-color: $color-white;
+            border: none;
+            width: 100%;
+            display: flex;
+            align-items: flex-start;
+        }
+        .background-color-tabs {
+            background-color: $color-green;
+            border: none;
+            width: 100%;
+            display: flex;
+            align-items: flex-start;
+        }
+    }
+}
+
+.view-body-left-group {
+    margin-bottom: -0.938em;
+    margin: 0.5em;
+    .view-body-left-input {
+        border: none;
+        border-radius: 0.313em;
+        display: flex;
+        outline: none;
+        width: 85%;
+        font-size: $text-normal;
+        line-height: $line-height-normal;
+        font-family: $font-medium;
+        padding: 0.5em 0.313em;
+        margin-bottom: 0em;
+    }
+}
+
+.input-group {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.txt-group {
+    font-size: $text-normal;
+    color: $color-black;
+    line-height: 1.250em;
+    padding: 0.625em 0em 0em 0em;
+    margin-bottom: 1em;
+}
+
+.group-input {
+    padding: 0em 0.5em;
+    .contain-input {
+        width: 100%;
+        border: 1px solid $color-solid-border;
+        border-radius: 0.5em;
+        padding: 0.5em;
+    }
+}
+
+.button-cancel {
+    background-color: $color-solid-border;
+    width: 45%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5em;
+}
+
+.button-continue {
+    background-color: $color-green-header;
+    width: 45%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5em;
+}
+
+.label-continue {
+    font-size: $text-normal;
+    line-height: $line-height-normal;
+    font-family: $font-medium;
+    color: $color-white;
+    text-align: center;
+    margin-bottom: 0em;
+    padding: 0.5em 0em;
+}
+
+.label-cancel {
+    font-size: $text-normal;
+    line-height: $line-height-normal;
+    font-family: $font-medium;
+    color: $color-black;
+    text-align: center;
+    margin-bottom: 0em;
+    padding: 0.5em 0em;
+}
+
+.view-bottom {
+    display: flex;
+    flex-direction: row;
+    min-width: 15vw;
+    justify-content: space-between;
+    padding: 1em 0.5em;
+    position: absolute;
+    bottom: 1em;
+}
+
+.button-right {
+    display: flex;
+    flex-direction: row;
+}

@@ -1,0 +1,17 @@
+@import 'assets/scss';
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $color-white;
+    border: none;
+    padding: 1em;
+    p {
+        font-size: $text-normal;
+        font-family: $font-medium;
+        line-height: $line-height-normal;
+        color: $color-black;
+        margin-bottom: 0rem;
+    }
+}

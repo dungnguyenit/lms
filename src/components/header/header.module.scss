@@ -1,0 +1,119 @@
+@import "../../assets/scss/colors";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 7%;
+  background: $color-green-header;
+  align-items: center;
+  padding: 5px 10px;
+  position: fixed;
+  top: 0;
+  z-index: 10000;
+  .innerLeft {
+    width: 20%;
+  }
+  .innerCenter {
+    width: 50%;
+    display: flex;
+    .textContent {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      gap: 10%;
+      color: $color-white-gray;
+      span {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+      }
+    }
+  }
+  .innerRight {
+    width: 30%;
+    position: relative;
+    .modalItem {
+      position: absolute;
+      top: 100%;
+      left: 10%;
+      background-color: $color-white-gray;
+      width: 300px;
+      height: 500px;
+      z-index: 1000;
+      border-radius: 20px;
+      ul {
+        padding: 5% 3%;
+        li {
+          list-style-type: none;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 12px;
+        }
+      }
+    }
+    .innerRightItem {
+      display: flex;
+      align-items: center;
+      gap: 10%;
+      //   justify-content: center;
+      justify-content: space-evenly;
+      .icon {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        position: relative;
+      }
+      .avatar-item {
+        padding: 8px;
+        background-color: $color-white-gray;
+        border-radius: 50%;
+        .item {
+          position: relative;
+        }
+      }
+      .avatarLogin {
+        display: flex;
+        align-items: center;
+        color: $color-white-gray;
+        background-color: $color-white-gray;
+        padding: 3px 15px;
+        border-radius: 40px;
+        .loginText {
+          padding-left: 15px;
+          color: $color-gray1;
+        }
+      }
+    }
+  }
+  h5 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+  }
+  //--------------------
+  .icons {
+    display: flex;
+    justify-content: center;
+    gap: 15%;
+  }
+  .icon {
+    background-color: $color-white;
+    padding: 5%;
+    border-radius: 50%;
+  }
+}

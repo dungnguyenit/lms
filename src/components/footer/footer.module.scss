@@ -1,0 +1,75 @@
+@import 'assets/scss';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footerContainer{
+    background-color: $color-white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px 0px ;
+    position: fixed;
+    bottom: 0;
+    z-index: 1000;
+}
+
+.footerContainerLeft{
+    display: flex;
+    flex: 3.5;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.textTienNgay{
+    color: $color-green;
+    text-align: center;
+    font-size: 16px;
+    display: flex;
+    flex: 1;   
+    justify-content: center;
+    font-family: $font-bold;
+}
+.textVn{
+    color: $color-red;
+    font-family: $font-bold;
+}
+
+.textCopyRight{
+    color: $color-gray1;
+    text-align: center;
+    font-size: 12px;
+    display: flex;
+    flex: 6; 
+    font-family: $font-regular; 
+}
+
+.textErrAccess{
+    color: $color-gray1;
+    text-align: center;
+    font-size: 12px; 
+    font-family: $font-regular;
+}
+
+.textSdtIfErrAccess{
+    color: $color-red1;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 12px;
+    padding-left: 6px;
+    font-family: $font-regular;
+}
+
+.footerContainerRight{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center; 
+
+}
